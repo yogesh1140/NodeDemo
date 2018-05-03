@@ -1,0 +1,748 @@
+Received: from BLRKECMBX33.ad.infosys.com (10.66.236.133) by
+ BLRKECHUB11.ad.infosys.com (10.66.236.43) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Tue, 16 Feb 2016 11:33:52 +0530
+Received: from BLRKECMBX36.ad.infosys.com (10.66.236.136) by
+ BLRKECMBX33.ad.infosys.com (10.66.236.133) with Microsoft SMTP Server (TLS)
+ id 15.0.1044.25; Tue, 16 Feb 2016 11:33:49 +0530
+Received: from BLRKECMBX36.ad.infosys.com ([fe80::3d3a:3bf5:5aac:dcae]) by
+ BLRKECMBX36.ad.infosys.com ([fe80::3d3a:3bf5:5aac:dcae%15]) with mapi id
+ 15.00.1044.021; Tue, 16 Feb 2016 11:33:49 +0530
+From: Praveen Kumar VC <Praveenkumar_VC@infosys.com>
+To: MYS_Nov15LC2_MSRT1_B <MYS_Nov15LC2_MSRT1_B@infosysdl.local>
+CC: Kritika Mahajan01 <Kritika.Mahajan01@infosys.com>, Joanna Arpita Sivalenka
+	<Joanna.Sivalenka@infosys.com>
+Subject: Access Specifier
+Thread-Topic: Access Specifier
+Thread-Index: AdFof7ntDtaMsxj4Sp63GbTngzLzfQ==
+Date: Tue, 16 Feb 2016 06:03:49 +0000
+Message-ID: <890cb70dbfef4e9ba855efe365e4cbbb@BLRKECMBX36.ad.infosys.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BLRKECMBX36.ad.infosys.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+Content-Type: multipart/alternative;
+	boundary="_000_890cb70dbfef4e9ba855efe365e4cbbbBLRKECMBX36adinfosyscom_"
+MIME-Version: 1.0
+
+--_000_890cb70dbfef4e9ba855efe365e4cbbbBLRKECMBX36adinfosyscom_
+Content-Type: text/plain; charset="us-ascii"
+
+Dear All,
+
+PFB the details
+
+Concept
+
+Within
+
+Private
+
+Public
+
+Protected
+
+Internal
+
+Protected Internal
+
+Instance of A Class
+
+Same Class
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Instance of A Class
+
+Other class of same Assembly
+
+N
+
+Y
+
+N
+
+Y
+
+Y
+
+Instance of A Class
+
+Other class of Different Assembly
+
+N
+
+Y
+
+N
+
+N
+
+N
+
+Instance of A Class
+
+within Child class of Same Assembly
+
+N
+
+Y
+
+N
+
+Y
+
+Y
+
+Instance of A Class
+
+within Child class of Different Assembly
+
+N
+
+Y
+
+N
+
+N
+
+N
+
+Instance of B Class Child of Class A
+
+within class B for Parent Members Within Same Assembly
+
+N
+
+Y
+
+Y
+
+Y
+
+Y
+
+Instance of B Class Child of Class A
+
+within class B for Parent Members Within different Assembly
+
+N
+
+Y
+
+Y
+
+N
+
+Y
+
+Instance of B Class Child of Class A
+
+In Other class Same assembly (Parent class member)
+
+N
+
+Y
+
+N
+
+Y
+
+Y
+
+Instance of B Class Child of Class A
+
+In Other class different assembly (Parent class member)
+
+N
+
+Y
+
+N
+
+N
+
+N
+
+Invoking CTOR within Class A
+
+
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Invoking CTOR of Class A  within same Assembly of other class
+
+
+
+N
+
+Y
+
+N
+
+Y
+
+Y
+
+Invoking CTOR of Class A  within same Assembly of Child class
+
+No Change as like previous
+
+
+
+
+
+
+
+
+
+
+
+Invoking CTOR of Class A  within same Assembly of Child class using base
+
+
+
+N
+
+Y
+
+Y
+
+Y
+
+Y
+
+Invoking CTOR of Class A  within Different Assembly
+
+
+
+N
+
+Y
+
+N
+
+N
+
+N
+
+Invoking CTOR of Class A  within Different Assembly of child class
+
+No Change as like previous
+
+
+
+
+
+
+
+
+
+
+
+Invoking CTOR of Class A  within Different Assembly of child class using base
+
+
+
+N
+
+Y
+
+Y
+
+N
+
+Y
+
+
+
+Thanks & Best Regards
+PVC
+An MVC<http://www.asp.net/mvc>, MVVM<https://msdn.microsoft.com/en-in/library/gg405484(v=pandp.40).aspx>, MVP<https://msdn.microsoft.com/en-us/library/ff649571.aspx> Enthusiast
+Lead-ETA-MS
+
+
+--_000_890cb70dbfef4e9ba855efe365e4cbbbBLRKECMBX36adinfosyscom_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72">
+<div class="WordSection1">
+<p class="MsoNormal">Dear All,<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">PFB the details<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="789" style="width:592.0pt;margin-left:-.15pt;border-collapse:collapse">
+<tbody>
+<tr style="height:15.0pt">
+<td width="172" valign="top" style="width:129.0pt;border:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><b><span style="color:black">Concept<o:p></o:p></span></b></p>
+</td>
+<td width="205" valign="top" style="width:154.0pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><b><span style="color:black">Within<o:p></o:p></span></b></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><b><span style="color:black">Private<o:p></o:p></span></b></p>
+</td>
+<td width="45" valign="top" style="width:34.0pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><b><span style="color:black">Public<o:p></o:p></span></b></p>
+</td>
+<td width="95" valign="top" style="width:71.0pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><b><span style="color:black">Protected<o:p></o:p></span></b></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><b><span style="color:black">Internal<o:p></o:p></span></b></p>
+</td>
+<td width="144" valign="top" style="width:1.5in;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><b><span style="color:black">Protected Internal<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr style="height:15.0pt">
+<td width="172" valign="top" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Instance of A Class<o:p></o:p></span></p>
+</td>
+<td width="205" valign="top" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Same Class<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="45" valign="top" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="top" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="144" valign="top" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:15.0pt">
+<td width="172" valign="top" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Instance of A Class<o:p></o:p></span></p>
+</td>
+<td width="205" valign="top" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Other class of same Assembly<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="top" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="top" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="144" valign="top" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:15.0pt">
+<td width="172" valign="top" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Instance of A Class<o:p></o:p></span></p>
+</td>
+<td width="205" valign="top" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Other class of Different Assembly<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="top" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="top" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="144" valign="top" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:15.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:30.0pt">
+<td width="172" valign="top" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Instance of A Class<o:p></o:p></span></p>
+</td>
+<td width="205" valign="top" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">within Child class of Same Assembly<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="top" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="top" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="144" valign="top" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:30.0pt">
+<td width="172" valign="top" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Instance of A Class<o:p></o:p></span></p>
+</td>
+<td width="205" valign="top" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">within Child class of Different Assembly<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="top" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="top" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="144" valign="top" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:45.0pt">
+<td width="172" valign="top" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Instance of B Class Child of Class A<o:p></o:p></span></p>
+</td>
+<td width="205" valign="top" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">within class B for Parent Members Within Same Assembly<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="top" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="top" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="144" valign="top" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:42.0pt">
+<td width="172" valign="top" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:42.0pt">
+<p class="MsoNormal"><span style="color:black">Instance of B Class Child of Class A<o:p></o:p></span></p>
+</td>
+<td width="205" valign="top" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:42.0pt">
+<p class="MsoNormal"><span style="color:black">within class B for Parent Members Within different Assembly<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:42.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="top" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:42.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="top" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:42.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="64" valign="top" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:42.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="144" valign="top" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:42.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:30.0pt">
+<td width="172" valign="top" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Instance of B Class Child of Class A<o:p></o:p></span></p>
+</td>
+<td width="205" valign="bottom" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">In Other class Same assembly (Parent class member)<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="bottom" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="bottom" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="144" valign="bottom" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:45.0pt">
+<td width="172" valign="top" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Instance of B Class Child of Class A<o:p></o:p></span></p>
+</td>
+<td width="205" valign="bottom" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">In Other class different assembly (Parent class member)<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="bottom" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="bottom" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="144" valign="bottom" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:30.0pt">
+<td width="172" valign="bottom" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Invoking CTOR within Class A <o:p>
+</o:p></span></p>
+</td>
+<td width="205" valign="bottom" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="45" valign="bottom" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="bottom" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="144" valign="bottom" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:30.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:45.0pt">
+<td width="172" valign="bottom" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Invoking CTOR of Class A&nbsp; within same Assembly of other class<o:p></o:p></span></p>
+</td>
+<td width="205" valign="bottom" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="bottom" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="bottom" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="144" valign="bottom" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:45.0pt">
+<td width="172" valign="bottom" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Invoking CTOR of Class A&nbsp; within same Assembly of Child class<o:p></o:p></span></p>
+</td>
+<td width="205" valign="bottom" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">No Change as like previous<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="45" valign="bottom" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="95" valign="bottom" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="144" valign="bottom" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:45.0pt">
+<td width="172" valign="bottom" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Invoking CTOR of Class A&nbsp; within same Assembly of Child class using base<o:p></o:p></span></p>
+</td>
+<td width="205" valign="bottom" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="bottom" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="bottom" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="144" valign="bottom" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:45.0pt">
+<td width="172" valign="bottom" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Invoking CTOR of Class A&nbsp; within Different Assembly
+<o:p></o:p></span></p>
+</td>
+<td width="205" valign="bottom" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="bottom" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="bottom" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="144" valign="bottom" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:45.0pt">
+<td width="172" valign="bottom" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">Invoking CTOR of Class A&nbsp; within Different Assembly of child class<o:p></o:p></span></p>
+</td>
+<td width="205" valign="bottom" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">No Change as like previous<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="45" valign="bottom" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="95" valign="bottom" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="144" valign="bottom" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:45.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+</tr>
+<tr style="height:60.0pt">
+<td width="172" valign="bottom" style="width:129.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:60.0pt">
+<p class="MsoNormal"><span style="color:black">Invoking CTOR of Class A&nbsp; within Different Assembly of child class using base<o:p></o:p></span></p>
+</td>
+<td width="205" valign="bottom" style="width:154.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:60.0pt">
+<p class="MsoNormal"><span style="color:black">&nbsp;<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:60.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="45" valign="bottom" style="width:34.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:60.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="95" valign="bottom" style="width:71.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:60.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+<td width="64" valign="bottom" style="width:48.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:60.0pt">
+<p class="MsoNormal"><span style="color:black">N<o:p></o:p></span></p>
+</td>
+<td width="144" valign="bottom" style="width:1.5in;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:60.0pt">
+<p class="MsoNormal"><span style="color:black">Y<o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">Thanks &amp; Best Regards<o:p></o:p></p>
+<p class="MsoNormal">PVC<o:p></o:p></p>
+<p class="MsoNormal">An <a href="http://www.asp.net/mvc">MVC</a>, <a href="https://msdn.microsoft.com/en-in/library/gg405484(v=pandp.40).aspx">
+MVVM</a>, <a href="https://msdn.microsoft.com/en-us/library/ff649571.aspx">MVP</a> Enthusiast<o:p></o:p></p>
+<p class="MsoNormal">Lead-ETA-MS <o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_890cb70dbfef4e9ba855efe365e4cbbbBLRKECMBX36adinfosyscom_--
